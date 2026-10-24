@@ -3,7 +3,7 @@ function setBoxColor(color) {
   document.getElementById('box').style.backgroundColor = color;
 }
 
-// Apply text input color
+// Apply color picker value
 document.getElementById('apply-btn').addEventListener('click', function() {
   var color = document.getElementById('color-input').value;
   setBoxColor(color);
